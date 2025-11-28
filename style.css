@@ -1,0 +1,42 @@
+/* basic page layout */
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: white;
+}
+
+/* status text */
+#status {
+  margin-bottom: 1rem;
+}
+
+/* button sizes */
+.btn {
+  height: 160px;
+  width: 160px;
+  border-radius: 20%;
+  margin: 1rem;
+  border: 6px solid black;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* colors */
+.red { background-color: #d95980; }
+.yellow { background-color: #f99b45; }
+.green { background-color: #63aac0; }
+.purple { background-color: #819ff9; }
+
+/* visual feedback */
+.flash { background-color: white !important; }
+.pressed {
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  transform: scale(0.98);
+}
+
+/* container */
+.btn-container { display:flex; justify-content:center; flex-wrap:wrap; }
+.line-one, .line-two { display:flex; }
